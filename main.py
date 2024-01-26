@@ -297,7 +297,7 @@ print("Final value with ARMA Model-Based Strategy: NIS", final_value_arma)
 # Null hypothesis: There is no significant difference between the strategies
 t_stat, p_value = ttest_ind(cumulative_return_bh, cumulative_return_arma)
 
-print("T-statistic:", t_stat)
+print("T-statistic:", t_stat) #I fixed the issue 
 print("P-value:", p_value)
 
 # Preparing the data for analysis
